@@ -1,0 +1,30 @@
+.bar {
+  border-top: 4px solid oklch(24% 0.08 162);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.12);
+  animation: slideUp 0.6s ease forwards;
+
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+.content {
+  gap: 2rem;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    gap: 1.5rem;
+  }
+}
+
+.actions {
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .landing_page {
+    h2 {
+      font-size: 40px !important;
+      margin-bottom: 30px !important;
+    }
+
+    p {
+      font-size: 16px !important;
+    }
+
+    p:first-of-type {
+      font-size: 20px !important;
+    }
+
+    button {
+      margin-bottom: 20px !important;
+      width: 90vw !important;
+    }
+  }
+}
